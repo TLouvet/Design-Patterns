@@ -9,8 +9,8 @@ const bollywoodHorrorMovie = bollywoodFactory.getHorrorMovie();
 const hollywoodComedyMovie = hollywoodFactory.getComedyMovie();
 const hollywoodHorrorMovie = hollywoodFactory.getHorrorMovie();
 
-bollywoodComedyMovie.beFun();
-bollywoodHorrorMovie.scare();
+console.log(bollywoodComedyMovie.beFun());
+console.log(bollywoodHorrorMovie.scare());
 
-hollywoodComedyMovie.beFun();
-hollywoodHorrorMovie.scare();
+console.log(hollywoodComedyMovie.beFun());
+console.log(hollywoodHorrorMovie.scare());
